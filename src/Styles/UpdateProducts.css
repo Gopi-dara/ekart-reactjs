@@ -1,0 +1,32 @@
+.field{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 35px;
+    justify-content: center;
+    align-items: center ;
+}
+.updateproducts{
+    width: 500px;
+    padding: 30px;
+    margin-left: 500px;
+    margin-top: 30px;
+    background-color: antiquewhite;
+}
+
+ .field ,.input6,select,textarea{
+    border: none;
+}
+.label6{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.input6,textarea{
+    font-size: 15px;
+    font-weight: bold;
+}
+.updateproducts button{
+    width: 150px;
+    height: 40px;
+    margin-left: 150px;
+}

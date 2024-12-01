@@ -1,0 +1,78 @@
+.UserViewItems {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f8f8; /* Light background */
+  }
+  
+  .items {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card2 {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .Thumbnail2 {
+    text-align: center;
+  }
+  
+  .thumb2 {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .description2 {
+    margin-top: 10px;
+  }
+  
+  .description2 h4, .description2 h5, .description2 p, .description2 span {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  #cost2 {
+    color: #888;
+  }
+  
+  button {
+    margin: 5px 0;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-warning {
+    background-color: #f0ad4e;
+    color: #fff;
+  }
+  
+  .btn-warning:hover {
+    background-color: #ec971f;
+  }
+  
+  .btn-danger {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c9302c;
+  }
+  

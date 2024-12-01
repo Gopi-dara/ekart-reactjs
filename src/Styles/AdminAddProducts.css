@@ -1,0 +1,34 @@
+fieldset{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 35px;
+    justify-content: center;
+    align-items: center ;
+}
+.Adminproducts{
+    border: 2px solid black;
+    width: 500px;
+    padding: 30px;
+    margin-left: 500px;
+    margin-top: 30px;
+    background-color: antiquewhite;
+}
+
+ fieldset ,.input5,select,textarea{
+    border: none;
+    border-bottom: 2px solid black; 
+}
+.label5{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.input5,textarea{
+    font-size: 15px;
+    font-weight: bold;
+}
+.Adminproducts button{
+    width: 150px;
+    height: 40px;
+    margin-left: 150px;
+}

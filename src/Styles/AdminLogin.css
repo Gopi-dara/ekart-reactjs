@@ -1,0 +1,45 @@
+
+.AdminLogin{
+    /* border: 2px solid black; */
+    background-color: aqua;
+    border-radius: 50px;
+    width: 450px;
+    position: relative;
+    top: 70px;
+    left: 530px; 
+     padding: 20px 20px; 
+}
+
+ .big1{
+    display: flex;
+    justify-content: center;
+}
+/* .form1{
+    padding:25px;
+} */
+ .img1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+    left: 140px;
+    height: 120px;
+    border-radius: 60px;
+}
+.form1 .input1{
+ width: 400px;
+ height: 40px;
+ border-radius: 20px;  
+}
+.btn1{
+    margin-left: 150px;
+    height: 45px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.span1 a{
+    margin-left: 110px;
+    font-size: 20px;
+    text-decoration: none;
+}

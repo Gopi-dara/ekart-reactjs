@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+.AdminNavbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:aquamarine;
+    align-items: center;
+    height: 85px;
+}
+span{
+    color: brown;
+    font-weight: bold;
+    font-family: cursive;
+}
+.AdminNavbar>.links a{
+    text-decoration: none;
+}
+.AdminNavbar>.links{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}

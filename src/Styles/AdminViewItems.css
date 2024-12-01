@@ -1,0 +1,40 @@
+.AdminViewItems{
+  display: grid;
+  grid-template-columns:300px  300px 300px;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+  padding: 20px 0px;
+}
+.sub_items:hover{
+  transform:1.0;
+}
+.card1
+{
+  box-shadow: 0px 0px 25px grey;
+  padding:25px;
+  width: 350px;
+  height: 100vh;
+}
+.Thumbnail>.thumb
+{
+  width: 200px;
+}
+.Thumbnail>.thumb:hover{
+  transform: rotateY(180deg);
+  transition: 2s;
+}
+.Thumbnail
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+
+}
+.description
+{
+height: 300px;
+width: 300px;
+
+}
